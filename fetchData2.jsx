@@ -59,7 +59,7 @@ function App() {
         }
         //strip down complete array to 5 buttons
         for (let i = 0; i < 5; i++) {
-          breedListTemp.push(breedListForWork[Math.floor(Math.random() * 98)]);
+          breedListTemp.push(breedListForWork[Math.floor(Math.random() * breedListForWork.length)]);
         }
         setBreedList(breedListTemp);
       } catch (error) {
