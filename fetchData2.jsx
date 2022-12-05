@@ -19,7 +19,6 @@ const BreedButton = ({ breedChange, breedListOrigin }) => {
 function App() {
   const { useState, useEffect } = React;
   const { Container } = ReactBootstrap;
-  const [imageUrl, setImageUrl] = useState("");
   const [breed, setBreed] = useState("beagle");
   const [breedList, setBreedList] = useState([
     "beagle",
